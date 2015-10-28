@@ -1,0 +1,18 @@
+/*
+ * what's this!?
+ * It's css-modules, and it's amazing
+ * It solves a ton of problems with CSS
+ * I seriously recommend you look into this
+ */
+
+.className {
+  color: green;
+  background: red;
+}
+
+:local .greeting {
+  composes: className;
+  color: yellow;
+  margin-top: 16px;
+}
+
